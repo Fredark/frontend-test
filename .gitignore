@@ -6,6 +6,9 @@
 /cypress/plugins
 /cypress/support
 
+#storybook
+/storybook-static
+
 # next.js
 /.next/
 /out/
