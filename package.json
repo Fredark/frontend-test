@@ -6,10 +6,9 @@
   "scripts": {
     "test": "jest",
     "dev": "next dev",
-    "build": "build-storybook",
+    "build": "build-storybook -o ./.next/server/pages",
     "start": "next start",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook",
     "cypress:open": "cypress open"
   },
   "repository": {
